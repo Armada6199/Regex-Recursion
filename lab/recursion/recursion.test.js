@@ -29,6 +29,7 @@ Example: n = 4 ==> 3, n= 0 ==> 0, n = 3 ==> 2 */
 
 function fibonacci(n) {
     // Write you logic here.
+    //finding the root
     if(n==0) return 0;
     if(n==1) return 1;
     return fibonacci(n-1)+fibonacci(n-2);
